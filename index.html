@@ -4,8 +4,21 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Document</title>
+    <script src="myscript.js"></script>
 </head>
 <body>
-    <script src="myscript.js"></script>
+    
+    <button type="button" onclick="rock()">Rock</button>
+    <button type="button" onclick="paper()">Paper</button>
+    <button type="button" onclick="scissors()">Scissors</button>
+    <button onclick="gameStart()">Game</button>
+    <h1>Human Move:</h1>
+    <div id="humanMoveHTML"></div>
+    <h1>Computer Move:</h1>
+    <div id="compMoveHTML"></div>
+    <h1>Winner: </h1>
+    <div id="roundWinner"></div>
+    <div id="humanScoreCounter"></div>
+    <div id="compScoreCounter"></div>
 </body>
 </html>
